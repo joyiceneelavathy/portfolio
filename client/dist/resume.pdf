@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 <<
+        /Type /Font
+        /Subtype /Type1
+        /BaseFont /Helvetica-Bold
+      >>
+      /F2 <<
+        /Type /Font
+        /Subtype /Type1
+        /BaseFont /Helvetica
+      >>
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 550
+>>
+stream
+BT
+/F1 22 Tf
+50 720 Td
+(Joyice Neelavathy) Tj
+/F2 12 Tf
+0 -25 Td
+(B.Tech Information Technology | Aspiring Full-Stack Developer) Tj
+0 -18 Td
+(Email: joyiceneelavathy@gmail.com | Tamil Nadu, India) Tj
+0 -30 Td
+/F1 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+/F2 11 Tf
+0 -18 Td
+(Aspiring Full-Stack Developer skilled in React, TypeScript, Node.js, Express, and MongoDB.) Tj
+0 -15 Td
+(Passionate about building responsive, modern web applications and scalable APIs.) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+/F2 11 Tf
+0 -18 Td
+(Bachelor of Technology in Information Technology) Tj
+0 -30 Td
+/F1 14 Tf
+(PROJECTS) Tj
+/F2 11 Tf
+0 -18 Td
+(1. UsedMart - Used Products Buy & Sell Web Application (MERN Stack)) Tj
+0 -15 Td
+(2. Disease Prediction / Classification (Machine Learning & Web)) Tj
+0 -15 Td
+(3. Creative Story Generator (AI & Full-Stack Web App)) Tj
+ET
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000373 00000 n 
+trailer
+<<
+  /Size 5
+  /Root 1 0 R
+>>
+startxref
+975
+%%EOF

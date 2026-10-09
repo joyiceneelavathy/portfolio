@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const resumeController_js_1 = require("../controllers/resumeController.js");
+const auth_js_1 = require("../middleware/auth.js");
+const router = (0, express_1.Router)();
+router.get('/', resumeController_js_1.getResume);
+router.put('/', auth_js_1.authenticateAdmin, resumeController_js_1.updateResume);
+router.post('/', auth_js_1.authenticateAdmin, resumeController_js_1.updateResume);
+exports.default = router;

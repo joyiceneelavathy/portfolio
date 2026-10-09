@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const socialLinkController_js_1 = require("../controllers/socialLinkController.js");
+const auth_js_1 = require("../middleware/auth.js");
+const router = (0, express_1.Router)();
+router.get('/', socialLinkController_js_1.getAllSocialLinks);
+router.get('/:id', socialLinkController_js_1.getSocialLinkById);
+router.post('/', auth_js_1.authenticateAdmin, socialLinkController_js_1.createSocialLink);
+router.put('/:id', auth_js_1.authenticateAdmin, socialLinkController_js_1.updateSocialLink);
+router.delete('/:id', auth_js_1.authenticateAdmin, socialLinkController_js_1.deleteSocialLink);
+exports.default = router;

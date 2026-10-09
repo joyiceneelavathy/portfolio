@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const contactController_js_1 = require("../controllers/contactController.js");
+const auth_js_1 = require("../middleware/auth.js");
+const router = (0, express_1.Router)();
+router.post('/', contactController_js_1.submitContact);
+router.get('/', auth_js_1.authenticateAdmin, contactController_js_1.getContacts);
+router.patch('/:id/read', auth_js_1.authenticateAdmin, contactController_js_1.markAsRead);
+router.delete('/:id', auth_js_1.authenticateAdmin, contactController_js_1.deleteContact);
+exports.default = router;
